@@ -1,0 +1,21 @@
+{
+	"name": "ls_local_sql_server",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "sql-cursoudemy-eduardo.database.windows.net",
+			"database": "sqldb-cursoudemy-eduardo",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "eduardo",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NGJmMWM1Yi05YTllLTRiNWQtYmFmMC1mNzI1NGU5Mzg2NGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "iradf",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
